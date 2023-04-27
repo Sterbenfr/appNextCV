@@ -75,9 +75,63 @@
   color: #666;
 }
 
-@media screen and (max-width:295px) {
+.cardContainer {
+  display: block;
+  align-items: center;
+  background-color: #d3c9c9;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 4px 1px #666;
+  margin: 2rem;
+}
+
+.card {
+  color: #04AA6D;
+  font-size: larger;
+  font-weight: bold;
+  margin: 10px 10px 1px 10px;
+}
+
+.more {
+  color: #666;
+  font-size: medium;
+  margin: 1px 10px 1px 10px;
+}
+
+.more2 {
+  color: #afa7a7;
+  font-size: medium;
+  margin: 1px 10px 1px 10px;
+}
+
+.description {
+  font-weight: bold;
+  margin: 10px;
+  color: #474545;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+@media screen and (max-width:585px) {
   .list .listItem {
     font-size: medium;
+  }
+}
+
+@media screen and (max-width:433px) {
+  .list .listItem {
+    font-size: small;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:340px) {
+  .list .listItem {
+    font-size: small;
   }
 
   .list .rating {
