@@ -16,13 +16,13 @@ export default function Home() {
                         Lille, France
                     </p>
                     <p className={utilStyles.description}>
-                        Première Année chez ENIGMA
+                        Première année chez ENIGMA
                     </p>
                 </div>
 
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        Première Année de médecine
+                        Première année de médecine
                     </p>
                     <p className={utilStyles.more}>
                         2021-2022,
@@ -37,7 +37,7 @@ export default function Home() {
 
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        BAC Spécialité Physique-Chimie et SVT
+                        BAC Spécialités Physique-Chimie et SVT
                     </p>
                     <p className={utilStyles.more}>
                         2020-2021,

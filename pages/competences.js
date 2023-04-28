@@ -31,6 +31,7 @@ export default function Home() {
                         <li>Admin système Linux                 <span className={utilStyles.rating}>★ ★ ★ ★ ★</span>     </li>
                         <li>CCNA 2 (cours finis)                <span className={utilStyles.rating}>★ ★ ★ ★ ☆</span>     </li>
                         <li>Admin système Windows               <span className={utilStyles.rating}>★ ★ ★ ★ ☆</span>     </li>
+                        <li>SEO/Web-Marketing                   <span className={utilStyles.rating}>★ ★ ★ ★ ☆</span>     </li>
                         <li>Gestion de Projet                   <span className={utilStyles.rating}>★ ★ ★ ☆ ☆</span>     </li>
 
                     </p>
