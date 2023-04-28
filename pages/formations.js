@@ -37,7 +37,7 @@ export default function Home() {
 
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        BAC Spécialitées Physique-Chimie et SVT
+                        BAC Spécialité Physique-Chimie et SVT
                     </p>
                     <p className={utilStyles.more}>
                         2020-2021,

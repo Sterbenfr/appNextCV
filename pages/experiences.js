@@ -16,8 +16,8 @@ export default function Home() {
                         12/2017, Bruay-la-Buissière, France
                     </p>
                     <p className={utilStyles.description}>
-                        J'ai pu utilisé les logiciels de fiche patient,
-                        voir la stérilisation du matériel et les soins sur patient
+                        J'ai pu utiliser les logiciels de fiches patients,
+                        voir la stérilisation du matériel et les soins sur patients.
                     </p>
                 </div>
             </section>
