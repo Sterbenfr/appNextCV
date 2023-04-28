@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <Layout projets>
             <section className={utilStyles.headingLg}>
-                <span> Mes projets sont tous disponibles sur mon GitHub : </span>
+                <span> Mes projets sont pour la plupart disponibles sur mon GitHub : </span>
                 <div className={utilStyles.links}>
                     <a target="_blank" href="https://github.com/Sterbenfr">Sterbenfr</a>
                 </div>

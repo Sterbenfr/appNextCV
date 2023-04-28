@@ -19,9 +19,13 @@ export default function Home() {
           je posséde une grande créativité.
         </p>
         <p>
-          Depuis petit je suis passionné par les minéraux et fossiles, je fait partie d'un club basé a Wasquehal
+          Je suis passionné par les minéraux et fossiles, je fait partie d'un club basé a Wasquehal
           (<Link target="_blank" href="https://www.instagram.com/sperkise/">@sperkise</Link>)
-          avecc lequel je fait des bourses et des sorties pour en chercher. Je fait de la natation et j'aime les jeux vidéos.
+          avecc lequel je fait des salons et des sorties terrains.
+          A coté de cette passion je me suis intéressé au dévellopement et ait commencer a apprendre
+          le python. J'ai ensuite suivi une option informatique en seconde puis j'ai plus tard intégrer mon
+          école actuelle, ENIGMA.
+          Je fait de la natation et j'aime le monde de la musique en général.
         </p>
       </section>
     </Layout>

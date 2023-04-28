@@ -27,7 +27,7 @@ export default function Home() {
                     <span className={utilStyles.listItem}>Réseau/cours :</span>
                     <p>
                         <li>CCNA 1 (attesté)                    <span className={utilStyles.rating}>★ ★ ★ ★ ★</span>     </li>
-                        <li>Git                                 <span className={utilStyles.rating}>★ ★ ★ ★ ★</span>     </li>
+                        <li>Git/GitHub                          <span className={utilStyles.rating}>★ ★ ★ ★ ★</span>     </li>
                         <li>Admin système Linux                 <span className={utilStyles.rating}>★ ★ ★ ★ ★</span>     </li>
                         <li>CCNA 2 (cours finis)                <span className={utilStyles.rating}>★ ★ ★ ★ ☆</span>     </li>
                         <li>Admin système Windows               <span className={utilStyles.rating}>★ ★ ★ ★ ☆</span>     </li>

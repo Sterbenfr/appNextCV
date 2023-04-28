@@ -124,13 +124,9 @@
 
 @media screen and (max-width : 670px) {
   .navbar ul {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-  }
-
-  .language {
-    float: left;
-
   }
 
   .navbar li a {
@@ -164,6 +160,10 @@
     padding: 3px 5px;
   }
 
+  .navbar li {
+    font-size: small;
+  }
+
   .footer {
     display: flex;
     align-items: left;
@@ -184,7 +184,3 @@
     display: block;
   }
 }
-
-
-
-/*responsive jusqu'a 224px, pas en dessous*/

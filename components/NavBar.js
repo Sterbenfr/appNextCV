@@ -6,50 +6,50 @@ import { useRouter } from 'next/router';
 
 
 const Navbar = () => {
-    return(
+    return (
         <div className={styles.navbar}>
             <ul>
                 <button className={styles.language} onClick={languageSwitch}>En/Fr</button>
                 <li>
                     <Link href='/' className={Activating('/')}>
-                        Home                        
+                        Home
                     </Link>
                 </li>
                 <li>
                     <Link href='/competences' className={Activating('/competences')}>
-                        Compétences                   
+                        Compétences
                     </Link>
                 </li>
                 <li>
                     <Link href='/projets' className={Activating('/projets')}>
-                        Réalisation Perso                    
+                        Réalisation Perso
                     </Link>
                 </li>
                 <li>
                     <Link href='/formations' className={Activating('/formations')}>
-                        Formations                     
+                        Formations
                     </Link>
                 </li>
                 <li>
                     <Link href='/experiences' className={Activating('/experiences')}>
-                        Expérience Pro                      
+                        Expérience Pro
                     </Link>
                 </li>
-            </ul>  
+            </ul>
         </div>
     )
 };
 
-function languageSwitch(){
-    console.log("nice")
-} 
+function languageSwitch() {
+    console.log("WIP")
+}
 
-function Activating(link){
+function Activating(link) {
     const router = useRouter();
-    if ( router.pathname === link){
-    return(styles.active)         
-    }else{
-        return("")
+    if (router.pathname === link) {
+        return (styles.active)
+    } else {
+        return ("")
     }
 }
 

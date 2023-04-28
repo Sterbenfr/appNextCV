@@ -60,7 +60,7 @@
 
 .list .listItem {
   opacity: 1 !important;
-  color: rgb(237, 237, 237);
+  color: #04AA6D;
   font-weight: bolder;
   font-size: larger;
   background-color: #d3c9c9;
