@@ -7,22 +7,22 @@ export default function Home() {
             <section className={utilStyles.headingMd}>
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        BAC+3 - Responsable de projet informatique
+                        BAC+3 - IT Project Manager
                     </p>
                     <p className={utilStyles.more}>
-                        En cours
+                        In progress
                     </p>
                     <p className={utilStyles.more2}>
                         Lille, France
                     </p>
                     <p className={utilStyles.description}>
-                        Première année chez ENIGMA
+                        First year at ENIGMA
                     </p>
                 </div>
 
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        Première année de médecine
+                        First year of medical school
                     </p>
                     <p className={utilStyles.more}>
                         2021-2022,
@@ -31,23 +31,23 @@ export default function Home() {
                         Amiens, France
                     </p>
                     <p className={utilStyles.description}>
-                        Université de Picardie Jules Vernes
+                        University of Picardie Jules Vernes
                     </p>
                 </div>
 
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        BAC Spécialités Physique-Chimie et SVT
+                        Bacalauréat with Specialties Physics/ Chemistry and Biology
                     </p>
                     <p className={utilStyles.more}>
                         2020-2021,
                     </p>
                     <p className={utilStyles.more2}>
-                        Lycée Alfred Chanzy, CharlevilleMézières, France
+                        Lycée Alfred Chanzy, Charleville-Mézières, France
                     </p>
                     <p className={utilStyles.description}>
                         Mention Assez-Bien<br />
-                        Option Mathématiques
+                        mathematics option.
                     </p>
                 </div>
             </section>

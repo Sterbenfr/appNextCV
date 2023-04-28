@@ -43,7 +43,7 @@ export default function Home() {
                         2020-2021,
                     </p>
                     <p className={utilStyles.more2}>
-                        Lycée Alfred Chanzy, CharlevilleMézières, France
+                        Lycée Alfred Chanzy, Charleville-Mézières, France
                     </p>
                     <p className={utilStyles.description}>
                         Mention Assez-Bien<br />

@@ -5,12 +5,23 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import NavBar from './NavBar'
 import Footer from './Footer'
+import { useState, useEffect } from 'react';
 
 
 const name = 'Pierre Caudreliez';
 export const siteTitle = 'Online CV of Pierre Caudreliez';
 
+const getInitialLanguage = () => {
+  if (typeof window !== 'undefined') {
+    const lang = localStorage.getItem('lang');
+    return lang ? lang === 'en' : false;
+  } else {
+    return false;
+  }
+};
+
 export default function Layout({ children, home }) {
+  const [english, setEnglish] = useState(getInitialLanguage);
   return (
     <div className={styles.fullpage}>
       <div className={styles.container}>
@@ -70,10 +81,16 @@ export default function Layout({ children, home }) {
         </div>
         {!home && (
           <div className={styles.backToHome}>
-            <Link href="/">← Back to home</Link>
+            {english ? (
+              <Link href="/En/Home">← Back to home</Link>
+            ) : (
+              <div>
+                <Link href="/">← Back to home</Link>
+              </div>
+            )}
           </div>
         )}
       </div>
     </div>
-  );
-}
+  )
+}  

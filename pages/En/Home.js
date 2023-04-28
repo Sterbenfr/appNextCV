@@ -7,25 +7,25 @@ export default function Home() {
     <Layout home>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, je m'appelle Pierre Caudreliez, je suis étudiant dans le domaine de l'informatique chez ENIGMA.
+          Hello, my name is Pierre Caudreliez, I am studying computer science in ENIGMA.
         </p>
         <p>
-          Je suis en première année d'un Bac +3 et je cherche actuellement un stage,
-          de préférence en tant que dévelopeur FullStack/ BackEnd. Il est de deux mois minimum
-          et trois mois maximum. Je peux commencer dès le 12 juin.
+          I am in my first year of a Bac +3 and I am currently looking for an internship,
+          preferably as a FullStack/ BackEnd developer. It is a minimum of two months
+          and three months maximum. I can start as soon as June 12.
         </p>
         <p>
-          Je suis très engagé dans mes projets que je fait volontier en équipe,
-          je posséde une grande créativité.
+          I am very committed to my projects and I like to work in teams,
+          I have a great creativity.
         </p>
         <p>
-          Je suis passionné par les minéraux et fossiles, je fait parti d'un club basé à Wasquehal
+          I have a passion for minerals and fossils, I am part of a club based in Wasquehal
           (<Link target="_blank" href="https://www.instagram.com/sperkise/">@sperkise</Link>)
-          avec lequel je fait des salons et des sorties terrains.
-          À coté de cette passion, je me suis intéressé au dévellopement et j'ai commencé à apprendre
-          le python. J'ai ensuite suivi une option informatique en seconde puis, plus tard, intégré mon
-          école actuelle, ENIGMA.
-          Je fais de la natation et j'aime le monde de la musique en général.
+          with which I do shows and field trips.
+          Beside this passion, I got interested in development and started to learn
+          python. I then followed a computer science option in high school and later integrated my current
+          current school, ENIGMA.
+          I swim and I like listening and playing music.
         </p>
       </section>
     </Layout>

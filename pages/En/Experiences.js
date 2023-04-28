@@ -7,17 +7,17 @@ export default function Home() {
             <section className={utilStyles.headingMd}>
                 <div className={utilStyles.cardContainer}>
                     <p className={utilStyles.card}>
-                        Stage d'observation dans un cabinet dentaire
+                        Observation internship in a dental office
                     </p>
                     <p className={utilStyles.more}>
-                        Cabinet dentaire du Dr Guiffant Laurence
+                        Dr. Guiffant Laurence's dental office
                     </p>
                     <p className={utilStyles.more2}>
                         12/2017, Bruay-la-Buissière, France
                     </p>
                     <p className={utilStyles.description}>
-                        J'ai pu utiliser les logiciels de fiches patients,
-                        voir la stérilisation du matériel et les soins sur patients.
+                        I was able to use the patient charting software,
+                        see the sterilization of equipment and method of patient care.
                     </p>
                 </div>
             </section>

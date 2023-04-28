@@ -6,14 +6,17 @@ import utilStyles from '../styles/utils.module.css';
 
 const Navbar = () => {
     const router = useRouter();
-    const [english, setEnglish] = useState(() => {
-        if (typeof window !== 'undefined') {
+
+    const getInitialLanguage = () => {
+        if (typeof window !== 'undefined' && localStorage) {
             const lang = localStorage.getItem('lang');
             return lang ? lang === 'en' : false;
         } else {
             return false;
         }
-    });
+    };
+
+    const [english, setEnglish] = useState(getInitialLanguage);
 
     const handleLanguageSwitch = () => {
         const currentPath = router.pathname;

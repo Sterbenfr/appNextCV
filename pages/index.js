@@ -15,13 +15,13 @@ export default function Home() {
           et trois mois maximum. Je peux commencer dès le 12 juin.
         </p>
         <p>
-          Je suis très engagé dans mes projets que je fait volontier en équipe,
+          Je suis très engagé dans mes projets que je conduis volontier en équipe,
           je posséde une grande créativité.
         </p>
         <p>
-          Je suis passionné par les minéraux et fossiles, je fait parti d'un club basé à Wasquehal
+          Je suis passionné par les minéraux et fossiles, je fais parti d'un club basé à Wasquehal
           (<Link target="_blank" href="https://www.instagram.com/sperkise/">@sperkise</Link>)
-          avec lequel je fait des salons et des sorties terrains.
+          avec lequel je fais des salons et des sorties terrains.
           À coté de cette passion, je me suis intéressé au dévellopement et j'ai commencé à apprendre
           le python. J'ai ensuite suivi une option informatique en seconde puis, plus tard, intégré mon
           école actuelle, ENIGMA.
