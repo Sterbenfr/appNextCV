@@ -1,10 +1,8 @@
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 import React from "react";
 import Link from "next/link";
-import { useRouter } from 'next/router';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const phone = '+33622920240'
 const mail = 'pierrecaudreliez@gmail.com'
@@ -28,10 +26,10 @@ const Footer = () => {
                 }
 
                 <li>
-                    <a target="_blank" href={`tel: ${phone}`}>{phone}</a>
+                    <a target="_blank" href={`tel:${phone}`}>{phone}</a>
                 </li>
                 <li>
-                    <a href={`mailto: ${mail}`}>{mail}</a>
+                    <a href={`mailto:${mail}`}>{mail}</a>
                 </li>
                 <li>
                     <a target="_blank" href="https://www.linkedin.com/in/pierre-caudreliez">LinkedIn: Pierre Caudreliez</a>

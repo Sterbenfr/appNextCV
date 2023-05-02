@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import NavBar from './NavBar'
 import Footer from './Footer'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 
 const name = 'Pierre Caudreliez';
@@ -26,14 +26,14 @@ export default function Layout({ children, home }) {
     <div className={styles.fullpage}>
       <div className={styles.container}>
         <Head>
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="favicon.png" />
           <meta
             name="description"
             content="Online CV of Pierre Caudreliez"
           />
           <meta
             property="og:image"
-            content="/favicon.png"
+            content="favicon.png"
           />
           <meta name="og:title" content={siteTitle} />
           <meta name="twitter:card" content="summary_large_image" />

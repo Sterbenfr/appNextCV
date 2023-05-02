@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './layout.module.css';
-import utilStyles from '../styles/utils.module.css';
 
 const Navbar = () => {
     const router = useRouter();

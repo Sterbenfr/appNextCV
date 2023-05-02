@@ -118,9 +118,7 @@
 
 .footer li a {
   color: aliceblue;
-
 }
-
 
 @media screen and (max-width : 670px) {
   .navbar ul {
